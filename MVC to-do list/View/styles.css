@@ -1,0 +1,44 @@
+body {
+    font-family: 'Roboto', sans-serif;
+}
+
+.container {
+    box-shadow: 2px 2px 2px #999999;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    width: 50%;
+}
+
+form, span {
+    padding: 1rem;
+}
+
+input {
+    outline: none;
+    margin: 0 1rem;
+}
+
+.checkButDiv {
+    margin: 1rem 0;
+}
+
+button {
+    font-family: 'Roboto', sans-serif;
+    border: none;
+    border-radius: 0.3rem;
+    outline: none;
+    padding: 1rem;
+}
+
+.finishBut {
+    background-color: #52b788;
+}
+
+.addBut {
+    background-color: #00afb9;
+}
+
+.createBut {
+    background-color: #ef233c;
+}
